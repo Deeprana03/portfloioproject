@@ -11,7 +11,7 @@
 
 <body>
 
-<!-- Navigation -->
+<!-- NAVIGATION -->
 <nav>
   <a href="#home">Home</a>
   <a href="#about">About</a>
@@ -20,81 +20,98 @@
   <a href="#contact">Contact</a>
 </nav>
 
-<!-- Home Section -->
+<!-- HOME -->
 <div id="home">
   <h1>Deep Rana</h1>
   <p>MCA Student — Don Bosco Institute of Technology</p>
 </div>
 
-<!-- About Section -->
+<!-- ABOUT -->
 <div class="container" id="about">
   <h2>About Me</h2>
   <p>
     Hey, I'm Deep Rana. I'm currently pursuing my MCA from Don Bosco Institute
-    of Technology. I enjoy building things and learning how systems work.
-    Recently, I have been exploring cloud computing and machine learning.
+    of Technology. I enjoy building things and understanding how systems work.
+    These days I'm exploring cloud computing and machine learning.
   </p>
 </div>
 
-<!-- Projects Section -->
+<!-- PROJECTS -->
 <div class="container" id="projects">
+
   <h2>Projects</h2>
 
   <div class="project">
     <h3>Serverless Cloud Optimization</h3>
     <p>
       Worked on reducing cost and latency in serverless cloud environments.
-      Focused on cold start optimization and billing patterns.
+      The focus was mainly on cold start optimization and efficient billing patterns.
     </p>
   </div>
 
   <div class="project">
     <h3>Sales Forecasting</h3>
     <p>
-      Built a machine learning model to predict future sales using time-series data.
+      Built a machine learning model that predicts future sales using
+      time-series data analysis.
     </p>
   </div>
 
   <div class="project">
     <h3>Portfolio Website</h3>
     <p>
-      This website built using HTML and CSS to showcase my work and interests.
+      A simple personal website created using HTML and CSS to present
+      my work and interests.
     </p>
   </div>
+
 </div>
 
-<!-- Hobbies Section -->
+<!-- HOBBIES -->
 <div class="container" id="hobbies">
+
   <h2>Hobbies</h2>
 
   <h3>📷 Photography</h3>
   <p>
-    I enjoy taking photos of everyday scenes. It helps me notice small details
-    and relax from daily work.
+    I enjoy taking photos of everyday scenes. It helps me slow down
+    and notice small details around me.
   </p>
+
   <ol>
     <li>You start seeing light and framing differently</li>
     <li>It's a good way to take a break from screens</li>
     <li>Helps with creativity</li>
   </ol>
 
+  <input type="text" class="hobby-input" placeholder="Add new benefit">
+  <button class="add-hobby-btn">Add</button>
+
+
   <h3>🌿 Indoor Gardening</h3>
   <p>
-    I keep a few plants on my desk such as pothos and succulents. It helps
-    create a calm and refreshing workspace.
+    I keep a few plants on my desk. Mostly low-maintenance plants like
+    pothos and succulents. It makes the workspace feel calm.
   </p>
+
   <ol>
     <li>Makes the workspace feel less stressful</li>
     <li>Teaches patience</li>
-    <li>Low effort and good results</li>
+    <li>Low effort, good results</li>
   </ol>
+
+  <input type="text" class="hobby-input" placeholder="Add new benefit">
+  <button class="add-hobby-btn">Add</button>
+
 </div>
 
-<!-- Contact Section -->
+<!-- CONTACT -->
 <div class="container" id="contact">
+
   <h2>Contact</h2>
 
   <form>
+
     <label for="name">Name</label>
     <input type="text" id="name" placeholder="Your name">
 
@@ -105,11 +122,14 @@
     <textarea id="message" rows="5" placeholder="Write your message here..."></textarea>
 
     <button type="submit">Send</button>
+
   </form>
+
 </div>
 
-<!-- Footer -->
+<!-- FOOTER -->
 <footer>
+
   <a href="https://linkedin.com" target="_blank">LinkedIn</a>
   <a href="https://github.com" target="_blank">GitHub</a>
   <a href="mailto:deep@email.com">Email</a>
@@ -117,8 +137,12 @@
 
   <br><br>
 
-  Deep Rana · 2026
+  <p id="datetime"></p>
+
 </footer>
+
+<!-- JAVASCRIPT -->
+<script src="script.js"></script>
 
 </body>
 </html>
